@@ -1,0 +1,57 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+/*Waarom is mijn achtergrond niet gelijk met mijn items?*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-image: url(../assets/achtergrond.png);
+    background-repeat: repeat;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    padding: 14px 16px;
+    margin: 20px;    
+}
+
+/*Vraag stellen over de problemen met de footer*/
+.page-footer {
+    padding: 2rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+}

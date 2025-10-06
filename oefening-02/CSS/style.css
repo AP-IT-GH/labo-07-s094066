@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+    background-image: url(../assets/achtergrond.webp);
+    background-repeat: repeat;
+    padding: 20px;
+}
+
+.item {
+    width: calc(50% - 20px);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.5;
+}
+
+item a {
+    color: grey;
+    text-decoration: none;
+}
+
+.special {
+    background-color: rgba(139, 211, 146, 0.5);
+    width: 100%;
+}
+
+.special::first-letter {
+    font-size: 200%;
+}
